@@ -1,0 +1,48 @@
+<nav class="footer-desktop">
+  <div class="footer-logo-links">
+    <a class="footer-logo media_link" href="{{ site.url }}">
+      <img src="{{ site.baseurl }}/assets/img/logos/dcp-logo-80.png" alt="NYC DCP">
+    </a>
+  </div>
+  <div class="footer-links-wrapper">
+  <div class="footer-links">
+    <ul>
+    {% for item in include.nav_items %}
+      <li>
+        {% if item.permalink %}
+          {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% else %}
+          {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+        {% endif %}
+        <a href="{{ item_link }}">{{ item.text }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="footer-links">
+    <h2 class="footer-links-heading">Policies and Standards</h2>
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}/open-source-policy/">Open source policy</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-links">
+    <h2 class="footer-links-heading">Contact us</h2>
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}/about/#for-press">Press</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/nycplanninglabs">@NYCPlanningLabs</a>
+      </li>
+      <li>
+        <a href="mailto:labs@planning.nyc.gov">labs@planning.nyc.gov</a>
+      </li>
+      <li>
+        <a href="https://github.com/nycplanning/planninglabs.nyc/issues/new">Report a bug</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>

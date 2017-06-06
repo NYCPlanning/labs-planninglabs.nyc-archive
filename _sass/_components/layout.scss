@@ -1,0 +1,260 @@
+// Layout
+// ==========================
+
+// Remove top margins from first item and bottom margins from last item
+.usa-section,
+.usa-grid,
+.usa-width-one-whole,
+.usa-width-one-half,
+.usa-width-one-third,
+.usa-width-two-thirds,
+.usa-width-one-fourth,
+.usa-width-three-fourths,
+.usa-width-one-sixth,
+.usa-width-five-sixths,
+.usa-width-one-twelfth {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child:not(:only-child) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.usa-grid-line {
+  height: 1px;
+}
+
+.usa-flex-baseline {
+  align-items: baseline;
+}
+
+.usa-flex-end {
+  align-items: flex-end;
+}
+
+.usa-spacer {
+  margin-bottom: $site-margins;
+
+  > * {
+    margin-bottom: $spacer-margins;
+  }
+}
+
+.usa-flex-pull-right {
+  > *:first-child {
+    flex-grow: 1;
+  }
+
+  > *:last-child {
+    margin-left: 0;
+    min-width: 200px;
+    text-align: left;
+  }
+}
+
+.usa-flex-always {
+  display: flex;
+}
+
+@include media($medium-screen) {
+  .usa-flex {
+    display: flex;
+  }
+
+  .usa-flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .usa-flex-vertically-top {
+    margin-bottom: $section-margins;
+  }
+
+  .usa-flex-pull-right {
+    > *:last-child {
+      float: right;
+      margin-left: $site-margins;
+      text-align: right;
+    }
+  }
+
+  .usa-flex-vertically-top {
+    align-self: flex-start;
+    flex-direction: column;
+  }
+
+  .usa-flex-vertically-bottom {
+    align-self: flex-end;
+    flex-direction: column;
+  }
+}
+
+.usa-section {
+  @include padding($site-margins null);
+
+  @include media($medium-screen) {
+    @include padding($section-margins null);
+  }
+
+  .page-lead {
+    margin-top: 0;
+  }
+}
+
+.usa-section-bottom {
+  @include padding(null null $site-margins null);
+
+  @include media($medium-screen) {
+    @include padding(null null $section-margins null);
+  }
+}
+
+.background-gray {
+  background-color: $color-gray-lightest;
+}
+
+.background-medium {
+  background-color: $color-medium;
+}
+
+.background-dark {
+  background-color: $color-dark;
+}
+
+.background-medium,
+.background-dark {
+  color: $color-white;
+  -webkit-font-smoothing: antialiased;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: $color-white;
+  }
+
+  .section-heading {
+    color: $color-bright;
+    letter-spacing: 0.5px;
+  }
+
+  h2 {
+    letter-spacing: 0.5px;
+  }
+
+  a
+   {
+    color: $color-bright;
+
+    &:hover {
+      color: $color-bright-hover;
+    }
+  }
+
+  .usa-search.usa-search-small [type="submit"] {
+    background-image: url("../img/global/search-dark.png");
+    background-image: url("../img/global/search-dark.svg");
+  }
+
+  input,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="search"],
+  input[type="file"],
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  textarea,
+  select {
+    border-color: $color-white;
+  }
+}
+
+// boone did this, we should do it the right way eventually
+.background-dark .usa-button.usa-button-secondary:hover {
+   color: $color-black;
+}
+
+// end of stuff boone did
+
+.header_border,
+.single-post {
+  header[role=banner] {
+    border-bottom: 1px solid $color-gray-lighter;
+  }
+}
+
+// Dark blue page intros
+.section-intro {
+  .section-heading {
+    margin-bottom: 0;
+  }
+
+  .section-heading-alt {
+    font-size: $h3-font-size;
+  }
+
+  h2 {
+    display: inline;
+    font-size: $h2-font-size;
+    font-weight: $font-bold;
+  }
+}
+
+.section-intro-header {
+  max-width: 81.2rem; // Width of 10 columns
+
+  @include media($medium-screen) {
+    @include span-columns(9);
+  }
+}
+
+// A list of sections separated with a light border
+.section-list {
+  border-bottom: $border-light;
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.content-focus {
+  @include margin(0 auto);
+  max-width: 64.063rem; // 8 column width at full screen
+}
+
+.usa-grid {
+  &.content-focus {
+    max-width: 70.563rem; // 64.063rem + 6rem (site margins)
+  }
+}
+
+.content-focus.content-wide {
+  max-width: $site-max-width;
+}
+
+.usa-content {
+  blockquote,
+  ol,
+  ul {
+    max-width: $text-max-width;
+  }
+}

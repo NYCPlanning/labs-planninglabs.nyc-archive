@@ -1,0 +1,46 @@
+// Post list
+// ==========================
+
+.post-list {
+  @include unstyled-list;
+
+  h2 {
+    font-size: $h3-font-size;
+    margin-top: 0.5em;
+
+    a {
+      color: $color-base;
+      text-decoration: none;
+    }
+  }
+
+  li {
+    border-bottom: $border-light;
+    display: inline-block;
+    margin-top: $section-margins;
+    padding-bottom: $section-margins;
+    margin-bottom: $paragraph-margins;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .post-tags {
+    margin-top: 1em;
+  }
+
+  .media_link {
+    margin-top: $paragraph-margins;
+    margin-bottom: $paragraph-margins;
+
+    @include media($medium-screen) {
+      float: left;
+      margin-top: 0;
+    }
+  }
+
+  img {
+    max-width: 29rem;
+  }
+}

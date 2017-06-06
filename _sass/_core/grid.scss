@@ -1,0 +1,87 @@
+.usa-grid-full .usa-width-one-third,
+.usa-grid .usa-width-one-third {
+
+  @include media($small-screen) {
+    @include span-columns(12);
+
+    &:last-child {
+      @include omega();
+    }
+  }
+
+  @include media($medium-screen) {
+    @include span-columns(4);
+
+    &:nth-of-type(3n) {
+      @include omega;
+    }
+  }
+
+  &.usa-width-tablet {
+
+    @include span-columns(12);
+
+    @include media($tablet-screen) {
+      @include span-columns(4);
+
+      &:nth-of-type(3n) {
+        @include omega;
+      }
+    }
+  }
+}
+
+.usa-grid-full .usa-width-two-thirds,
+.usa-grid .usa-width-two-thirds {
+
+  @include media($small-screen) {
+    @include span-columns(12);
+
+    &:last-child {
+      @include omega();
+    }
+  }
+
+  @include media($medium-screen) {
+    @include span-columns(8);
+
+    &:nth-of-type(3n) {
+      @include omega;
+    }
+  }
+
+  &.usa-width-tablet {
+
+    @include span-columns(12);
+
+    @include media($tablet-screen) {
+      @include span-columns(8);
+
+      &:nth-of-type(3n) {
+        @include omega;
+      }
+    }
+  }
+}
+
+.usa-grid .usa-width-one-half.usa-width-short-one {
+  @include media($medium-screen) {
+    @include span-columns(5);
+  }
+}
+
+.usa-grid .usa-width-one-half.usa-width-shift-one {
+  @include media($medium-screen) {
+    @include shift(1);
+  }
+}
+
+.usa-grid-reversed {
+  @include media($medium-screen) {
+    .usa-grid-reversed-right {
+      @include omega();
+      float: right;
+    }
+  }
+}
+

@@ -1,0 +1,43 @@
+{
+  "name": "planninglabs.nyc",
+  "version": "1.0.0",
+  "description": "NYC Planning Labs' website",
+  "main": "config.yml",
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=5.12"
+  },
+  "scripts": {
+    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
+    "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
+    "lint-508": "bash ./accessibility-scan",
+    "restart": "rm -rf _site && ./serve",
+    "restart-fast": "rm -rf _site && ./serve-fast",
+    "test": "bundle exec jekyll test",
+    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml",
+    "pa11y-local": "./killport 4000 && ./serve-accesslint && npm run pa11y-ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYCPlanning/labs-planninglabs.nyc.git"
+  },
+  "keywords": [
+    "NYC Planning",
+    "site",
+    "blog"
+  ],
+  "author": "18F",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NYCPlanning/labs-planninglabs.nyc/issues"
+  },
+  "homepage": "https://planninglabs.nyc",
+  "devDependencies": {
+    "pa11y-ci": "^0.3.0"
+  },
+  "dependencies": {
+    "accesslint-cli": "^1.1.1"
+  }
+}

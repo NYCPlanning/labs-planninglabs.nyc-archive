@@ -1,0 +1,28 @@
+// Figure
+// ==========================
+
+// Fix for IE 10 & 11 where the image overflows the grid item container and
+// doesn't respect the image's max-width to fill the container.
+
+[class^="usa-width-"],
+[class*=" usa-width-"] {
+  > .media_link {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      width: 100%; // Target IE 10 & 11
+    }
+  }
+}
+
+figcaption {
+  font-size: $small-font-size;
+  color: $color-gray;
+  text-align: left;
+
+  &.align-center {
+    text-align: center;
+  }
+}
+
+.image-shadowed {
+  @include prefixer(box-shadow, $site-box-shadow, webkit moz ms o spec);
+}

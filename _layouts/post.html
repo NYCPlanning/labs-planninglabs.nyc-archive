@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% include feature-image.html %}
+
+<div class="usa-grid">
+
+  <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">
+    {% include svg/icons/arrow-left.svg %}
+    <span class="usa-sr-only">Back to</span>
+    Blog
+  </a>
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="post-byline">
+      {% include post-author.html context="page" %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      </p>
+      <span class="post-tags" itemprop="keywords">
+        {% for tag in page.tags %}
+          <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+          </a>
+        {% endfor %}
+      </span>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      {% if page.image and page.image_feature_small == true %}
+        <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
+      {% endif %}
+
+      {{ content }}
+    </div>
+
+  </article>
+</div>
+
+{% if page.previous or page.next %}
+  <section class="post-pagination usa-grid">
+    <div class="usa-width-one-half">
+      {% if page.previous %}
+        <a href="{{ site.baseurl }}{{ page.previous.url }}">
+          <span class="link-arrow-left">
+            {% include svg/icons/arrow-left.svg %}
+            Previous Post
+          </span>
+          <h5>&ldquo;{{ page.previous.title }}&rdquo;</h5>
+        </a>
+      {% endif %}
+    </div>
+    <div class="usa-width-one-half">
+      {% if page.next %}
+          <a href="{{ site.baseurl }}{{ page.next.url }}">
+            <span class="link-arrow-right">
+              Next Post
+              {% include svg/icons/arrow-right.svg %}
+            </span>
+            <h5>&ldquo;{{ page.next.title }}&rdquo;</h5>
+          </a>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
+
+{% include related-posts.html %}

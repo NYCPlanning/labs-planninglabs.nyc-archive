@@ -1,0 +1,144 @@
+// Nav accordion
+.nav-accordion {
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray-lighter;
+
+  .usa-sidenav-list {
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      border-top-color: $color-gray-lighter;
+      background: transparent;
+      margin-bottom: 0;
+    }
+
+    button {
+      background-color: $color-white;
+      background-position: right 0 center;
+      border-bottom: 1px solid $color-gray-lighter;
+      border-radius: 0;
+      text-align: left;
+
+      &[aria-expanded=true],
+      &[aria-expanded=false] {
+        background-repeat: no-repeat;
+        background-position: right 0 center;
+        background-size: 1rem;
+      }
+
+      &[aria-expanded=true] {
+        background-image: url('../img/global/minus-alt.png');
+        background-image: url('../img/global/minus-alt.svg');
+      }
+
+      &[aria-expanded=false] {
+        background-image: url('../img/global/plus-alt.png');
+        background-image: url('../img/global/plus-alt.svg');
+      }
+
+      &:hover,
+      &:focus {
+        background-color: $color-gray-lightest;
+      }
+    }
+
+    a,
+    li > button {
+      @include padding(1rem null 1rem 3rem);
+      color: $color-gray;
+      font-weight: $font-bold;
+      font-size: $h5-font-size;
+      padding-left: ($paragraph-margins * 1.75);
+
+      &:hover {
+        color: $color-dark;
+      }
+
+      &.usa-current {
+        border-left: $border-accent;
+        color: $color-dark;
+        padding-left: ($paragraph-margins * 1.75) - 1rem;
+      }
+    }
+  }
+
+  .usa-sidenav-sub_list {
+    a {
+      padding-left: 3.8rem;
+
+      &.usa-current {
+        border-left: 0;
+        color: $color-primary;
+        font-weight: $font-bold;
+        padding-left: 3.8rem;
+      }
+    }
+  }
+}
+
+.nav-accordion-button {
+  @include media($medium-screen) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.nav-accordion-button-desktop {
+  @include media-max($medium-screen) {
+    display: none;
+  }
+}
+
+.nav-accordion-button-mobile {
+  @include media($medium-screen) {
+    display: none;
+  }
+}
+
+.nav-accordion-button-mobile,
+.nav-accordion-button-desktop {
+  cursor: pointer;
+}
+
+.sliding-panel-close {
+  @include button-unstyled;
+  float: right;
+  height: $hit-area;
+  margin-top: -1.2rem;
+  margin-right: -1.5rem;
+  margin-bottom: 2.4rem;
+  margin-left: auto;
+  text-align: center;
+  width: $hit-area;
+
+
+  &:active,
+  &:hover,
+  &:focus {
+    background-color: $color-gray-lightest;
+  }
+
+  svg {
+    height: $icon;
+    width: $icon;
+  }
+}
+
+.overlay {
+  @include position(fixed, 0);
+  background: $color-black;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  z-index: 9999;
+
+  &.is-visible {
+    opacity: 0.1;
+    visibility: visible;
+  }
+}

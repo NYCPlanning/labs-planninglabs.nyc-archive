@@ -1,0 +1,77 @@
+// Blog post
+// ==========================
+
+.post-feature_image {
+  background-position: center;
+  background-size: cover;
+  height: 36rem;
+  margin: 0;
+  position: relative;
+
+  @include media($medium-screen) {
+    height: 40rem;
+  }
+
+  figcaption {
+    background: rgba($color-gray-lightest, 0.85);
+    bottom: 0;
+    color: $color-black;
+    line-height: $paragraph-line-height;
+    font-size: $tiny-font-size;
+    font-style: italic;
+    max-width: 40%;
+    padding: ($spacer-margins / 2) $spacer-margins;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.single-post {
+  article {
+    @include margin(0 null $section-margins null);
+
+    @include media($medium-screen + 200px) {
+      @include margin($section-margins auto);
+      max-width: 61rem;
+    }
+
+    .image-feature-small {
+      margin-top: 0;
+    }
+
+    img {
+      @include margin($site-margins null);
+    }
+
+    img.pquote-img,
+    .pquote img {
+      margin-bottom: $paragraph-margins;
+      margin-right: 0;
+      margin-top: 0;
+
+      @include media($medium-screen) {
+        margin-bottom: 0;
+        margin-right: $paragraph-margins;
+      }
+    }
+
+    figure {
+      @include margin($site-margins null);
+      text-align: center; // center image if less than full width
+
+      img {
+        @include margin(0 null);
+      }
+    }
+  }
+}
+
+.post-header {
+  margin-bottom: $section-margins;
+}
+
+.posts {
+  ul {
+    @include unstyled-list;
+  }
+}

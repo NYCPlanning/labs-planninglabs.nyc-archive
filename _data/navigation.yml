@@ -1,0 +1,35 @@
+navbar:
+- text: About Labs
+  permalink: /about/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
+
+drawer:
+  - text: About Labs
+    permalink: /about/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/
+
+footer:
+  - text: About Labs
+    permalink: /about/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/

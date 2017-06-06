@@ -1,0 +1,50 @@
+// Post feature
+// ==========================
+.posts_feature {
+  > ul {
+    @include unstyled-list;
+  }
+
+  .post-excerpt {
+    font-size: 1.7rem;
+  }
+
+  article {
+    border-top: $border-accent;
+    margin-bottom: $site-margins;
+    padding-top: $site-margins;
+
+    @include media($medium-screen) {
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .post {
+    margin-bottom: $paragraph-margins-thick;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include media($tablet-screen) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.posts_feature-heading {
+  margin-top: 0;
+
+  a {
+    color: $color-base;
+  }
+}
+
+.post-date {
+  @include small-caps;
+}
+

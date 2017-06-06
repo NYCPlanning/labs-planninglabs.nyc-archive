@@ -1,0 +1,8 @@
+.page-join-18f,
+.page-contact {
+  .post-feature_image {
+    @include media($medium-screen) {
+      background-position: center 7%;
+    }
+  }
+}

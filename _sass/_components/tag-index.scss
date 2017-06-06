@@ -1,0 +1,29 @@
+// Tag index
+// ==========================
+
+.page-tag-results {
+  .hero {
+    min-height: 250px;
+    padding: $section-margins;
+  }
+
+  .hero-callout {
+    padding: $paragraph-margins-thick;
+  }
+
+  .post-list {
+    li {
+      &:first-child {
+        border-top: $border-light;
+        padding-top: $section-margins;
+      }
+    }
+  }
+
+  .post-list-no-padding {
+    li:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+  }
+}
