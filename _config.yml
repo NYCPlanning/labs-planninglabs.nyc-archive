@@ -6,9 +6,9 @@ permalink: pretty
 url: "https://planninglabs.nyc" # the base hostname & protocol for your sites
 localhost: "localhost:4000"
 env: "production"
-logo: /assets/img/logos/18F-Logo-Bright-S.png
+logo:
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
+github_repo: https://github.com/NYCPlanning/labs-planninglabs.nyc/blob/master
 
 related_posts: 3
 
@@ -86,15 +86,6 @@ defaults:
     subnav_anchor: /about/
  -
   scope:
-    path: "_join"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /join/
-    parent_title: Join 18F
-    parent_permalink: /join/
- -
-  scope:
     path: "_projects"
   values:
     layout: project-page
@@ -109,11 +100,10 @@ frontmatter_tests:
   path: "tests/schema"
 
 footer:
-  image: /assets/img/logos/18F-Logo-M.png
+  image:
   email:
   twitter:
-    - 18f
-    - usgsa
+    - nycplanninglabs
   text: This site was cloned from 18F.gsa.gov</a>. # Change to a tag line for your agency
 
 # Build settings
@@ -138,7 +128,6 @@ exclude:
 - docker_entrypoint.rb
 - Dockerfile
 - examples/
-- favicon.ico
 - Gemfile*
 - ISSUE_TEMPLATE.md
 - killport

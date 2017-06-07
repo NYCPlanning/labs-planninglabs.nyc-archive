@@ -2,10 +2,10 @@
 # .about.yml project metadata
 #
 # Short name that acts as the project identifier (required)
-name: 18f-site
+name: labs-site
 
 # Full proper name of the project (required)
-full_name: "18f.gsa.gov"
+full_name: "planninglabs.nyc"
 
 # The type of content in the repo
 # values: app, docs, policy
@@ -28,7 +28,7 @@ status: active
 
 # Description of the project
 description: |
-  The official website of 18F.
+  The website and blog of NYC Planning Labs.
 
 # Should be 'true' if the project has a continuous build (required)
 # values: true, false
@@ -40,14 +40,9 @@ testable: true
 #   id: Internal team identifier/user name
 #   role: Team member's role; leads should be designated as 'lead'
 team:
-- id: boone
+- id: cwhong
   role: lead
-- id: brian
-  role: developer
-- id: elaine
-  role: lead
-- id: andre
-  role: editor
+
 # Partners for whom the project is developed
 #partners:
 #-
@@ -80,9 +75,9 @@ stack:
 #     name: Name of the license from the Software Package Data Exchange (SPDX): https://spdx.org/licenses/
 #     url: URL for the text of the license
 licenses:
-  18f-site:
+  labs-site:
     name: CC0-1.0
-    url: https://github.com/18F/18f.gsa.gov/blob/staging/LICENSE.md
+    url: https://github.com/NYCPlanning/labs-planninglabs.nyc/blob/master/LICENSE.md
 
 # Blogs or websites associated with project development
 #blog:
@@ -93,9 +88,9 @@ licenses:
 # - url: URL for the link
 #   text: Anchor text for the link
 links:
-- url: https://18f.gsa.gov/
-  text: The official website of 18F
+- url: https://planninglabs.nyc/
+  text: The website and blog of NYC Planning Labs.
 
 # Email addresses of points-of-contact
 contact:
-- gregory.boone@gsa.gov
+- cwhong@planning.nyc.gov

@@ -8,12 +8,12 @@ tags:
 - relevant tag
 - other relevant tag
 - see tests/schema/tags.yml if you need a list
-excerpt: "Excerpt, possibly lightly edited, about 300-400 characters. This should help potential readers understand what the article is about and make them want to keep reading. This will be shown on the 18F homepage, tag and author rollup pages, and sometimes project pages. You can't use any Markdown here."
+excerpt: "Excerpt, possibly lightly edited, about 300-400 characters. This should help potential readers understand what the article is about and make them want to keep reading. This will be shown on the labs homepage, tag and author rollup pages, and sometimes project pages. You can't use any Markdown here."
 image: /assets/blog/[post-folder]/[filename]
 hero: false (if the image above should not be used full-width on the post page)
 published: false
 ---
-18F ipsum dolor amet user-centered [this is a link](https://code.gov) design agency partners test driven development. Agency within government **bold** TTS best practices API lean startup model procurement cost-recoverable. Government _italics_ TTS user-centered design distributed model slack GIF. Cupim GIF government user-centered open transparency 18F.
+labs ipsum dolor amet user-centered [this is a link](https://code.gov) design agency partners test driven development. Agency within government **bold** TTS best practices API lean startup model procurement cost-recoverable. Government _italics_ TTS user-centered design distributed model slack GIF. Cupim GIF government user-centered open transparency labs.
 
 ![This is an image with no caption. Put the alt text here in the square brackets.]({{site.baseurl}}/assets/blog/[post-folder]/[filename])
 
@@ -39,7 +39,7 @@ published: false
 
 ## Header level two
 
-Design diversity `inline code` cost-recoverable tock Concur IDP submit bill outreach government Hangouts. Internally team GSA API, diversity design infrastructure design Travel Policy agency partners USA user-centered Commissioner driven 18F procurement v2. Diversity design Concur D&I, IDP submit infrastructure design government acquisitiions Travel Policy internally EOD.
+Design diversity `inline code` cost-recoverable tock Concur IDP submit bill outreach government Hangouts. Internally team GSA API, diversity design infrastructure design Travel Policy agency partners USA user-centered Commissioner driven labs procurement v2. Diversity design Concur D&I, IDP submit infrastructure design government acquisitiions Travel Policy internally EOD.
 
 Code block:
 
@@ -82,7 +82,7 @@ Twitter:
 ---
 You can get the following for a specific tweet by using the dropdown on a tweet and selecting "Embed Tweet".
 
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/nycplanninglabs">@nycplanninglabs</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Youtube:

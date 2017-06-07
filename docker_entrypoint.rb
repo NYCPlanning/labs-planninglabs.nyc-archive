@@ -7,7 +7,7 @@ require 'etc'
 HOST_UID = File::Stat.new('/app').uid
 
 # This is just the username for the uid, for cosmetic purposes only really.
-HOST_USER = '18f_user'.freeze
+HOST_USER = 'labs_user'.freeze
 
 def does_username_exist(username)
   Etc.getpwnam(username)

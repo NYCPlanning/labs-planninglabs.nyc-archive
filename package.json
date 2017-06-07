@@ -10,7 +10,7 @@
     "node": ">=5.12"
   },
   "scripts": {
-    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
+    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore labs@planning.nyc.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "lint-508": "bash ./accessibility-scan",
     "restart": "rm -rf _site && ./serve",
@@ -28,7 +28,7 @@
     "site",
     "blog"
   ],
-  "author": "18F",
+  "author": "NYC Planning Labs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NYCPlanning/labs-planninglabs.nyc/issues"
