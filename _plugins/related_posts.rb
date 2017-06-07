@@ -91,7 +91,7 @@ module Jekyll
       Parallel.map(site.posts.docs.flatten, in_threads: in_threads(site)) do |post|
         rp = related_posts(post, site.posts)[0, n_posts]
 
-        post.data.merge!('related_posts' => rp) if rp.size.positive?
+        post.data.merge!('related_posts' => rp) if rp.size > 0
       end
     end
   end
