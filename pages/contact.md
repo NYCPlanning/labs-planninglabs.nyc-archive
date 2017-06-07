@@ -3,7 +3,7 @@ title: Contact
 permalink: /contact/
 layout: primary
 content_wide: true
-image: /assets/img/page-feature/join.jpg
+image: /assets/img/page-feature/subway.jpg
 redirect_from: /hire/
 gridless: true
 ---
