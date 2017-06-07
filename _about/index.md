@@ -25,7 +25,7 @@ We strive to work in a modern way and use best practices on all our projects. He
 
 <ul class="icon-list-wrapper">
   <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/respect-icon.svg %}</figure>
+    <figure class="icon-list-image">{% include svg/icons/open-icon.svg %}</figure>
     <div class="icon-list-text">
       <p class="p-bold">Open by Default</p>
       <p>Labs is committed to openness and transparency, and all activities will be open by default.  We will adopt the open source policy of 18F as a foundational set of principles to build upon.</p>
@@ -33,7 +33,7 @@ We strive to work in a modern way and use best practices on all our projects. He
   </li>
 
   <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/user-centered-icon.svg %}</figure>
+    <figure class="icon-list-image">{% include svg/icons/respect-icon.svg %}</figure>
     <div class="icon-list-text">
       <p class="p-bold">Build With, Not For</p>
       <p>Labs is a design partner, working closely with its customers in visioning and agile development.  Customers are expected to provide resources for the duration of a product build, and will be heavily involved in sprint planning and feature acceptance.</p>
@@ -49,7 +49,7 @@ We strive to work in a modern way and use best practices on all our projects. He
   </li>
 
   <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/open-icon.svg %}</figure>
+    <figure class="icon-list-image">{% include svg/icons/document.svg %}</figure>
     <div class="icon-list-text">
       <p class="p-bold">Document and Disseminate</p>
       <p>Labs will place a high priority on documentation and outward messaging in support of its mission to promote modern technology best practices, and will manage its own web content to include general information about the team’s mission and work program, blogging, docs, and social media engagement.</p>
