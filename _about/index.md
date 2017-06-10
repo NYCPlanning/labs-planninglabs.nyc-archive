@@ -11,6 +11,8 @@ subnav_items:
     permalink: /about/#our-core-values
   - text: Our Team
     permalink: /about/#our-team
+  - text: History
+    permalink: /about/#history
 ---
 
 ## What is Labs?
@@ -36,7 +38,7 @@ We strive to work in a modern way and use best practices on all our projects. He
     <figure class="icon-list-image">{% include svg/icons/respect-icon.svg %}</figure>
     <div class="icon-list-text">
       <p class="p-bold">Build With, Not For</p>
-      <p>Labs is a design partner, working closely with its customers in visioning and agile development.  Customers are expected to provide resources for the duration of a product build, and will be heavily involved in sprint planning and feature acceptance.</p>
+      <p>Labs is a design partner, working closely with its customers in visioning and agile development.  Customers are expected to provide resources for the duration of a product build, and will be heavily involved in sprint planning, testing and acceptance.</p>
     </div>
   </li>
 
@@ -52,7 +54,7 @@ We strive to work in a modern way and use best practices on all our projects. He
     <figure class="icon-list-image">{% include svg/icons/document.svg %}</figure>
     <div class="icon-list-text">
       <p class="p-bold">Document and Disseminate</p>
-      <p>Labs will place a high priority on documentation and outward messaging in support of its mission to promote modern technology best practices, and will manage its own web content to include general information about the team’s mission and work program, blogging, docs, and social media engagement.</p>
+      <p>Labs will place a high priority on documentation and outward messaging in support of its mission to promote modern technology best practices, and will manage its own content to include general information about the team’s mission and work program, blogging, docs, and social media engagement.</p>
     </div>
   </li>
 </ul>
@@ -64,3 +66,7 @@ Read the full text of [our charter](https://github.com/NYCPlanning/labs-charter)
 ## Our Team
 
 Coming Soon
+
+## History
+
+Labs was established in June 2017 by DCP civic technologist Chris Whong, with planning and guidance from Danny Fuchs, Director of Capital Planning, Hassan Adekoya, CIO, and Jon Kaufman, COO. After a year of experimentation and success building the [Capital Planning Platform](https://capitalplanning.nyc) using a 100% open source stack, a pitch was made to institutionalize modern development practices in the agency by establishing a service delivery unit within the Information Technology Division.  Labs' mission would be to build lightweight impactful tools with the agency's divisions as clients, and to be open, vocal, and inclusive about the modern technologies and processes used.  

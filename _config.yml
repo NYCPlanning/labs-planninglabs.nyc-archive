@@ -9,6 +9,7 @@ env: "production"
 logo:
 tag_dir: tags
 github_repo: https://github.com/NYCPlanning/labs-planninglabs.nyc/blob/master
+future: true
 
 related_posts: 3
 

@@ -1,18 +1,10 @@
-[![Code Climate](https://codeclimate.com/github/18F/18f.gsa.gov/badges/gpa.svg)](https://codeclimate.com/github/18F/18f.gsa.gov) [![Test Coverage](https://codeclimate.com/github/18F/18f.gsa.gov/badges/coverage.svg)](https://codeclimate.com/github/18F/18f.gsa.gov/coverage)
+# NYC Planning Labs' Website
 
-# 18F’s flagship website
+This repo houses the NYC Planning Labs jekyll blog/website. 
 
-This repo houses the 18F website. We use the [Draft U.S. Web Design standards](https://standards.usa.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.fr.cloud.gov/).
+## Thanks, 18F
 
-### Style and style guide
-
-18f.gsa.gov extends the [U.S. Web Design Standards](https://standards.usa.gov/) and [18F Brand guidelines](https://pages.18f.gov/brand/) to create a style that is professional, unique, and informative. The style guide, located at [18f.gsa.gov/styleguide/](https://18f.gsa.gov/styleguide/) documents the patterns and components used to create this theme.
-
-[View style guide](https://18f.gsa.gov/styleguide/)
-
-### History
-
-A detailed history of the past work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov).
+The site is a fork of [18f.gsa.gov](https://18f.gsa.gov/), and was modified for use by NYC Planning Labs prior to our launch in June 2017.  As labs is applying 18F's principles at the city agency level, we figured re-using their excellent open-source jekyll site to get us up and running quickly would be a fitting tribute.  So, thanks 18F!
 
 ## Installation
 
@@ -30,24 +22,16 @@ To dramatically reduce the build time, there are two commands that you can run i
 
 You should be able to see the site at: http://127.0.0.1:4000/site/
 
-## Alternative Installation using Docker
-Using Docker can make dependencies management easier, but can also slow down your build time. You can find out more in
-[this discussion](https://github.com/18F/18f.gsa.gov/pull/1688#issue-152998027).
+## Deployment
 
-*To try this out on MacOS:*
+The site can be deployed with a git push to dokku running on our cloud VPS.  We make use of the [dokku jekyll buildpack](https://github.com/inket/dokku-buildpack-jekyll3-nginx), which will stand up a web server (nginx) and other core dependencies (ruby, jekyll, etc) to build and host the site.
 
-1. Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
-2. Make sure Docker is running and `cd` into your project folder.
-3. Run `docker-compose build` to build the docker image and its dependencies. You only need to build once, but if there was an error with the build , rebuild using  the  `--no-cache` option like so `docker-compose build --no-cache`  to avoid using the old version of the docker image.
-4. Run `docker-compose up`.
-   **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`). Our site is large, so **this could take awhile**.
-5. Visit [http://localhost:4000/site/](http://127.0.0.1:4000/site/) in your browser. Make sure that you include the trailing slash.
+Add a new remote:
+`git remote add dokku dokku@{ourserverdomain}:planninglabs`
 
-## System security controls
+Push the master branch:
+`git push dokku master`
 
-The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.
+Don't forget to push your changes to `origin` too.
 
-1. Federalist runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/).
-1. Federalist Admin: https://federalist.fr.cloud.gov/.
-1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket.
-1. We map 18f.gsa.gov URL to the S3 bucket.
+TODO: Set up deployment hooks to automatically push `master` to dokku when changes are pushed to github.
