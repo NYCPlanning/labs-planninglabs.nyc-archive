@@ -3,9 +3,10 @@ title: About Labs
 permalink: /about/
 layout: primary
 lead: We build open, impactful technology products at the NYC Department of City Planning.
+
 banner_cta: true
 subnav_items:
-  - text: What is Labs
+  - text: What is Labs?
     permalink: /about/#what-is-labs
   - text: Our Core Values
     permalink: /about/#our-core-values

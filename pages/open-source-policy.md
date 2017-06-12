@@ -83,4 +83,4 @@ NYC Planning Labs would like to thank 18F, the Consumer Financial Protection Bur
 
 ### Future changes
 
-This policy is a living document. NYC Planning Labs expects to make changes to this policy in the future, and we welcome [issues](https://github.com/nycplanning/labs-open-source-policy/issues) and pull requests. To contact us privately, email <a href="mailto:labs@planning.nyc.gov">labs@planning.nyc.gov</a>.
+This policy is a living document. NYC Planning Labs expects to make changes to this policy in the future, and we welcome [issues](https://github.com/nycplanning/labs-open-source-policy/issues) and pull requests. To contact us privately, email <a href="mailto:labs_dl@planning.nyc.gov">labs_dl@planning.nyc.gov</a>.

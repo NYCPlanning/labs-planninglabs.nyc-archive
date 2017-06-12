@@ -14,7 +14,7 @@ gridless: true
     <li class="section-info-list-item">
       <div class="section-info-header">Other contacts</div>
       <ul>
-        <li>Email: <a href="mailto:labs@planning.nyc.gov">labs@planning.nyc.gov</a></li>
+        <li>Email: <a href="mailto:labs_dl@planning.nyc.gov">labs_dl@planning.nyc.gov</a></li>
         <li>Twitter: <a href="https://twitter.com/nycplanninglabs">@nycplanninglabs</a></li>
         <li>GitHub: <a href="https://github.com/nycplanning">NYCPlanning</a></li>
         <li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
@@ -31,7 +31,7 @@ Email us, or swing by our cubes in the IT Division at 120 Broadway, 30th floor. 
 
 {% endmarkdown %}
 
-<a class="usa-button usa-button-marginless" href="mailto:labs@planning.nyc.gov">Get in touch</a>
+<a class="usa-button usa-button-marginless" href="mailto:labs_dl@planning.nyc.gov">Get in touch</a>
 </div>
 
 </div>

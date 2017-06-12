@@ -10,7 +10,7 @@
     "node": ">=5.12"
   },
   "scripts": {
-    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore labs@planning.nyc.gov",
+    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore labs_dl@planning.nyc.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "lint-508": "bash ./accessibility-scan",
     "restart": "rm -rf _site && ./serve",
