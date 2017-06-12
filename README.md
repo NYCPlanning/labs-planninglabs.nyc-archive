@@ -1,10 +1,11 @@
 # NYC Planning Labs' Website
 
-This repo houses the NYC Planning Labs jekyll blog/website. 
+This repo houses the NYC Planning Labs jekyll blog/website.
+
 
 ## Thanks, 18F
 
-The site is a fork of [18f.gsa.gov](https://18f.gsa.gov/), and was modified for use by NYC Planning Labs prior to our launch in June 2017.  As labs is applying 18F's principles at the city agency level, we figured re-using their excellent open-source jekyll site to get us up and running quickly would be a fitting tribute.  So, thanks 18F!
+The site is a clone of [18f.gsa.gov](https://18f.gsa.gov/), and was modified for use by NYC Planning Labs prior to our launch in June 2017.  As labs is applying 18F's principles at the city agency level, we figured re-using their excellent open-source jekyll site to get us up and running quickly would be a fitting tribute.  So, thanks 18F!
 
 ## Installation
 
