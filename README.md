@@ -11,8 +11,8 @@ The site is a clone of [18f.gsa.gov](https://18f.gsa.gov/), and was modified for
 
 Run each of the following steps to get the site up and running.
 
-1. `git clone git@github.com:18F/18f.gsa.gov`
-2. `cd 18f.gsa.gov`
+1. `git clone git@github.com:nycplanning/labs-planninglabs.nyc`
+2. `cd labs-planninglabs.nyc`
 3. `bundle install`
 4. `./serve`
 
