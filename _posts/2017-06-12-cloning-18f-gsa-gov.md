@@ -43,6 +43,11 @@ $color-gray-hover   : #fafafa;
 
 ```
 
+<figure>
+  <img src="{{site.baseurl}}/assets/blog/cloning-18f-gsa-gov/colors-comparison.png" alt="Comparison of 18F's and Labs' color palettes" width="915" />
+  <figcaption>Comparison of 18F's and Labs' color palettes. (Made with colllor.com)  </figcaption>
+</figure>
+
 Next, we stripped out the images and page content.  As NYC Planning labs is still in its infancy, we only kept _About_, _Contact_, and the _Open Source Policy_ pages.  One by one I modified or wrote new content for each page, adapting it to our mission here at NYC Planning.  We don’t have any photos of our own showing design sessions, whiteboard sketches and post-its yet, so some open-licensed NYC photos from [Flickr](https://www.flickr.com/) will do for now.  
 
 Finally, I cleaned up the blog, removing all posts, and all of the information Jekyll needs about authors, and wrote our _Hello, World!_ post.  I probably spent a few hours once we had everything in place going through each directory and figuring out what else could be chopped.  If we need any of it in the future, we can always refer to the original repo and rebuild parts of the site that we removed, and even contribute back if the opportunity arises.  
