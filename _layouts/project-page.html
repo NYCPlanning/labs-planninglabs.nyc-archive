@@ -7,8 +7,8 @@ header_border: true
 
 
 {% include breadcrumb.html
-  parent_permalink='/what-we-deliver/'
-  parent_title='What we deliver'
+  parent_permalink='/projects/'
+  parent_title='Projects'
 %}
 
 <section class="page-tag-results">
@@ -41,7 +41,7 @@ header_border: true
   <div class="usa-grid-full usa-grid-reversed">
     {% assign any_clients = page.product_clients.size > 0 %}
 
-    {% if page.agency or
+    {% if page.customer or
           page.product_url or
           page.github_url or
           any_clients or
@@ -60,10 +60,10 @@ header_border: true
           </blockquote>
         {% endif %}
 
-        {% if page.agency %}
+        {% if page.customer %}
         <li class="section-info-list-item">
-          <div class="section-info-header">Agency partner</div>
-          <div>{{ page.agency }}</div>
+          <div class="section-info-header">Customer</div>
+          <div>{{ page.customer | markdownify }}</div>
         </li>
         {% endif %}
 
