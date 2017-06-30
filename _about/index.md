@@ -16,7 +16,7 @@ subnav_items:
     permalink: /about/#history
 ---
 
-## What is Labs?
+## What is Planning Labs?
 
 Planning Labs is a new division of the [NYC Department of City Planning](http://www1.nyc.gov/site/planning/) (DCP) that embraces open technology, agile development, and user-centered design to build impactful products with NYC's Urban Planners.
 
@@ -66,13 +66,23 @@ Read the full text of [our charter](https://github.com/NYCPlanning/labs-charter)
 
 ## Our Team
 
+### Chris Whong: Director
+<div class="media-object">
+  <figure class="thumbnail">
+    <img src="https://pbs.twimg.com/profile_images/3057855429/49cff02ea1ea88993d7edadd8b027982_400x400.jpeg">
+  </figure>
+  <div class="description">
+    <p>Chris developed the concept for Planning Labs in 2017, after leading the development of modern, open mapping applications in DCP's Capital Planning Division. He is an urbanist, open data advocate, civic technologist, and a former Code for America Brigade leader. </p>
+  </div>
+</div>
+
 ### Andy Cochran: Designer
 <div class="media-object">
   <figure class="thumbnail">
     <img src="https://pbs.twimg.com/profile_images/486195376077029377/U1cXHuNZ_400x400.jpeg">
   </figure>
   <div class="description">
-    <p>Andy joined Planning Labs in July, 2017 after implementing New York City Council's plan for digital inclusion and open government. As Design &amp; Creative Director at <a href="http://openplans.org/">OpenPlans</a>, he built collaborative mapping services and other civic engagement tools.</p>
+    <p>Andy joined the founding team of Planning Labs in July, 2017 after implementing New York City Council's plan for digital inclusion and open government. As Design &amp; Creative Director at <a href="http://openplans.org/">OpenPlans</a>, he built collaborative mapping services and other civic engagement tools.</p>
   </div>
 </div>
 
