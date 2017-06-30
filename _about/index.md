@@ -82,7 +82,7 @@ Read the full text of [our charter](https://github.com/NYCPlanning/labs-charter)
     <img src="https://pbs.twimg.com/profile_images/486195376077029377/U1cXHuNZ_400x400.jpeg">
   </figure>
   <div class="description">
-    <p>Andy joined the founding team of Planning Labs in July, 2017 after implementing New York City Council's plan for digital inclusion and open government. As Design &amp; Creative Director at <a href="http://openplans.org/" target="_blank">OpenPlans</a>, he built collaborative mapping services and other civic engagement tools.</p>
+    <p>Andy joined the founding team of Planning Labs in July, 2017 after implementing New York City Council's plan for digital inclusion and open government. As Design &amp; Creative Director at <a href="http://openplans.org/">OpenPlans</a>, he built collaborative mapping services and other civic engagement tools.</p>
   </div>
 </div>
 
@@ -92,7 +92,7 @@ Read the full text of [our charter](https://github.com/NYCPlanning/labs-charter)
     <img src="https://pbs.twimg.com/profile_images/598597497141997568/zR8hc1fd_400x400.jpg">
   </figure>
   <div class="description">
-    <p>Matt joined Planning Labs as a founding member in July, 2017 after creating digital solutions for the City of Boston’s Summer Youth Employment Program. He also helped establish the Metropolitan Area Planning Council’s <a href="http://data.mapc.org" target="_blank">Digital Services</a> division, the first of its kind in regional planning.</p>
+    <p>Matt joined Planning Labs as a founding member in July, 2017 after creating digital solutions for the City of Boston’s Summer Youth Employment Program. He also helped establish the Metropolitan Area Planning Council’s <a href="http://data.mapc.org">Digital Services</a> division, the first of its kind in regional planning.</p>
   </div>
 </div>
 
