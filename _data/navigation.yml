@@ -3,6 +3,8 @@ navbar:
   permalink: /about/
 - text: Projects
   permalink: /projects/
+- text: Pipeline
+  permalink: /pipeline/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
@@ -17,6 +19,8 @@ drawer:
     permalink: /about/
   - text: Projects
     permalink: /projects/
+  - text: Pipeline
+    permalink: /pipeline/
   - text: Blog
     permalink: /blog/
     multiple_permalinks:
@@ -31,6 +35,8 @@ footer:
     permalink: /about/
   - text: Projects
     permalink: /projects/
+  - text: Pipeline
+    permalink: /pipeline/
   - text: Blog
     permalink: /blog/
     multiple_permalinks:
