@@ -66,8 +66,18 @@ Read the full text of [our charter](https://github.com/NYCPlanning/labs-charter)
 
 ## Our Team
 
-Coming Soon
+### Andy Cochran: Designer
+<div class="media-object">
+  <figure class="thumbnail">
+    <img src="https://pbs.twimg.com/profile_images/486195376077029377/U1cXHuNZ_400x400.jpeg">
+  </figure>
+  <div class="description">
+    <p>Andy joined Planning Labs in July, 2017 after implementing New York City Council's plan for digital inclusion and open government. As Design &amp; Creative Director at <a href="http://openplans.org/">OpenPlans</a>, he built collaborative mapping services and other civic engagement tools.</p>
+  </div>
+</div>
+
+-----
 
 ## History
 
-Labs was established in June 2017 by DCP civic technologist Chris Whong, with planning and guidance from Danny Fuchs, Director of Capital Planning, Hassan Adekoya, CIO, and Jon Kaufman, COO. After a year of experimentation and success building the [Capital Planning Platform](https://capitalplanning.nyc) using a 100% open source stack, a pitch was made to institutionalize modern development practices in the agency by establishing a service delivery unit within the Information Technology Division.  Labs' mission would be to build lightweight impactful tools with the agency's divisions as clients, and to be open, vocal, and inclusive about the modern technologies and processes used.  
+Labs was established in June 2017 by DCP civic technologist Chris Whong, with planning and guidance from Danny Fuchs, Director of Capital Planning, Hassan Adekoya, CIO, and Jon Kaufman, COO. After a year of experimentation and success building the [Capital Planning Platform](https://capitalplanning.nyc) using a 100% open source stack, a pitch was made to institutionalize modern development practices in the agency by establishing a service delivery unit within the Information Technology Division.  Labs' mission would be to build lightweight impactful tools with the agency's divisions as clients, and to be open, vocal, and inclusive about the modern technologies and processes used.
