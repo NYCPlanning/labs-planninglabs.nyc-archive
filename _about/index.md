@@ -86,6 +86,16 @@ Read the full text of [our charter](https://github.com/NYCPlanning/labs-charter)
   </div>
 </div>
 
+### Matt Gardner: Developer
+<div class="media-object">
+  <figure class="thumbnail">
+    <img src="https://pbs.twimg.com/profile_images/598597497141997568/zR8hc1fd_400x400.jpg">
+  </figure>
+  <div class="description">
+    <p>Matt joined Planning Labs as a founding member in July, 2017 after creating digital solutions for the City of Boston’s Summer Youth Employment Program. He also helped establish the Metropolitan Area Planning Council’s <a href="http://data.mapc.org">Digital Services</a> division, the first of its kind in regional planning.</p>
+  </div>
+</div>
+
 -----
 
 ## History
