@@ -32,7 +32,7 @@ When an idea is submitted, the Planning Labs team starts a dialogue with the cus
 - Technical fit for the skillset of the Planning Labs team
 
 ## Step 3: Idea Listing
-###### Public
+###### Everyone
 Vetted ideas enter a public listing where stakeholders can promote their idea through open discussion. Although the ideas in this list may be a good fit, they're not Labs projects yet.
 
 <a class="usa-button usa-button-marginless" href="//ideas.planninglabs.nyc">View the ideas list</a>
@@ -42,7 +42,7 @@ Vetted ideas enter a public listing where stakeholders can promote their idea th
 Each time the Planning Labs team completes a project, the Chief Operating Officer selects a new project from the ideas list.
 
 ## Step 5: Pipeline Posting
-###### Public
+###### Everyone
 When a new project is selected, it's added to the pipeline on our website, which contains three projects&mdash;our currently active project, and the next two on deck.
 
 <a class="usa-button usa-button-marginless" href="/projects/">View our pipeline</a>
