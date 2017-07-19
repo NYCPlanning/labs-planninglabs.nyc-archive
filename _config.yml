@@ -68,6 +68,7 @@ defaults:
     path: "pages"
   values:
     layout: primary
+    include_subnav: true
  -
   scope:
     path: "_authors"
