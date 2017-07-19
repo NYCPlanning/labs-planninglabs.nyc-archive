@@ -21,7 +21,7 @@ subnav_items:
 ###### Customer
 DCP staff submit a clearly defined problem that needs solving, such as a real-world planning issue, a minor technical workflow, or something in between.
 
-<a class="usa-button usa-button-marginless" href="#">Submit a project</a>
+<a class="usa-button usa-button-marginless" href="#">Submit an idea</a>
 
 ## Step 2: Idea Vetting
 ###### Labs + Customer
