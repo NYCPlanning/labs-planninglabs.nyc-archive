@@ -1,8 +1,10 @@
 navbar:
-- text: About Labs
+- text: About
   permalink: /about/
 - text: Projects
   permalink: /projects/
+- text: Process
+  permalink: /process/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
@@ -13,8 +15,10 @@ navbar:
   permalink: /contact/
 
 drawer:
-  - text: About Labs
+  - text: About
     permalink: /about/
+  - text: Process
+    permalink: /process/
   - text: Projects
     permalink: /projects/
   - text: Blog
@@ -27,10 +31,12 @@ drawer:
     permalink: /contact/
 
 footer:
-  - text: About Labs
+  - text: About
     permalink: /about/
   - text: Projects
     permalink: /projects/
+  - text: Process
+    permalink: /process/
   - text: Blog
     permalink: /blog/
     multiple_permalinks:
