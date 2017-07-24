@@ -21,7 +21,7 @@ subnav_items:
 ###### Customer
 DCP staff submit a clearly defined problem that needs solving, such as a real-world planning issue, a minor technical workflow, or something in between.
 
-<a class="usa-button usa-button-marginless" href="#">Submit an idea</a>
+<a class="usa-button usa-button-marginless" href="https://ideas.planninglabs.nyc/create">Submit an idea</a>
 
 ## Step 2: Idea Vetting
 ###### Labs + Customer
@@ -35,7 +35,7 @@ When an idea is submitted, the Planning Labs team starts a dialogue with the cus
 ###### Everyone
 Vetted ideas enter a public listing where stakeholders can promote their idea through open discussion. Although the ideas in this list may be a good fit, they're not Labs projects yet.
 
-<a class="usa-button usa-button-marginless" href="//ideas.planninglabs.nyc">View the ideas list</a>
+<a class="usa-button usa-button-marginless" href="https://ideas.planninglabs.nyc/">View the ideas list</a>
 
 ## Step 4: Project Selection
 ###### Executive Office + Labs
