@@ -30,6 +30,7 @@ When an idea is submitted, the Planning Labs team starts a dialogue with the cus
 - Subject matter and data can be openly discussed
 - Minimum viable product is achievable in 4 to 6 weeks
 - Technical fit for the skillset of the Planning Labs team
+- Alignment with DCP mission and strategic objectives
 
 ## Step 3: Idea Listing
 ###### Everyone
