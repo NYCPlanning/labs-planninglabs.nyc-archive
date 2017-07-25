@@ -19,7 +19,7 @@ subnav_items:
 
 ## Step 1: Idea Submission
 ###### Customer
-DCP staff submit a clearly defined problem that needs solving, such as a real-world planning issue, a minor technical workflow, or something in between.
+DCP staff submit a clearly defined problem that needs solving, such as a real-world planning issue, a minor technical workflow improvement, or something in between.
 
 <a class="usa-button usa-button-marginless" href="https://ideas.planninglabs.nyc/create">Submit an idea</a>
 
