@@ -18,7 +18,7 @@ subnav_items:
 
 ## What is Planning Labs?
 
-Planning Labs is a new division of the [NYC Department of City Planning](http://www1.nyc.gov/site/planning/) (DCP) that embraces open technology, agile development, and user-centered design to build impactful products with NYC's Urban Planners.
+Planning Labs is a new division of the [NYC Department of City Planning](http://nyc.gov/planning) (DCP) that embraces open technology, agile development, and user-centered design to build impactful products with NYC's Urban Planners.
 
 We are inspired by the mission and successes of [18F](https://18f.gsa.gov/), and are applying a similar philosophy at a much smaller scale within our agency.
 
