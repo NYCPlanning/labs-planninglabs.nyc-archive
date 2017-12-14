@@ -1,3 +1,7 @@
+**THIS REPOSITORY HAS BEEN ARCHIVED. IT IS NO LONGER MAINTAINED.**  
+**[NEW PLANNING LABS WEBSITE REPO](https://github.com/NYCPlanning/labs-planninglabs-home)**
+
+
 # NYC Planning Labs' Website
 
 This repo houses the NYC Planning Labs jekyll blog/website.
