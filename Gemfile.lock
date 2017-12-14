@@ -119,7 +119,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.2)
     netrc (0.11.0)
-    nokogiri (1.8.0)
+    nokogiri (1.8.1)
       mini_portile2 (~> 2.2.0)
     parallel (1.11.2)
     pathutil (0.14.0)
@@ -183,7 +183,7 @@ GEM
     unf_ext (0.0.7.4)
     websocket (1.2.4)
     xpath (2.1.0)
-      nokogiri (~> 1.3)
+      nokogiri (~> 1.8.1)
     yell (2.0.7)
 
 PLATFORMS
